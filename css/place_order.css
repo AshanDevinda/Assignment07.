@@ -1,0 +1,158 @@
+header {
+    position: sticky;
+    top: 0;
+}
+
+/*main > select details inputs*/
+#select-order-detail {
+    border: 1px solid #01A3A4;
+    margin: 3px 10px ;
+    padding: 0 0 50px 0;
+    top: 85px;
+    background-color: white;
+}
+
+/*title*/
+#title {
+    background-color: #01A3A4;
+    height: 50px;
+    position: relative;
+    margin-bottom: 10px;
+}
+p {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 3px;
+}
+form>div>div>div>input {
+    margin-bottom: 10px;
+}
+label {
+    font-weight: bold;
+}
+
+/*add-remove-btns*/
+#add-remove-btns {
+    position: absolute;
+    right: 20px;
+}
+#table {
+    margin: 20px 10px 0 10px;
+    border: 1px solid #01A3A4;
+}
+#shop-name {
+    width: fit-content;
+    height: fit-content;
+    margin: -1px 10px 0 -10px;
+}
+#shop-name>span {
+    font-size: 25px;
+    color: #01A3A4;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*total label*/
+#total {
+    position: absolute;
+    right: 5vw;
+    margin-top: 15px;
+}
+#purchase-order-btn {
+    position: absolute;
+    right: 200px;
+    margin-top: 12px;
+    color: white;
+    background-color: #03C988;
+    border: 2px solid black;
+    /*padding-bottom: 10px;*/
+}
+#purchase-order-btn:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid #9AC9BE;
+}
+
+/*popup modal for place order*/
+#purchase-model-header>h1 {
+    letter-spacing: 0.1vw;
+}
+
+#purchase-model-body {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+#purchase-model-body>input {
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+}
+#purchase-model-body>input:hover {
+    background-color: whitesmoke;
+}
+#purchase-model-body>label {
+    margin-top: 3px;
+}
+#place-order {
+    width: 140px;
+    position: relative;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: #9AC9BE;
+    border: 2px solid black;
+}
+#btn-order {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+#place-order:hover {
+    background-color: white;
+    border: 2px solid #9AC9BE;
+    color: black;
+
+}
+#purchase-model-header {
+    background-color: #9AC9BE;
+}
+
+#purchase-model {
+    margin-top: 75px;
+}
+.text-bg-warning{
+    color: #D9D9D9;
+    background-color: #445069;
+    border: 1px solid black;
+}
+.btn-outline-warning{
+    --bs-btn-color: #9AC9BE;
+    --bs-btn-border-color: black;
+    --bs-btn-hover-color: #9AC9BE;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-border-color: black;
+    --bs-btn-focus-shadow-rgb: 255,193,7;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #9AC9BE;
+    --bs-btn-active-border-color: black;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #9AC9BE;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: black;
+    --bs-gradient: none;
+}
+#label-btn-search{
+    color: #D9D9D9;
+    background-color: #01A3A4;
+    border: 1px solid black;
+}
